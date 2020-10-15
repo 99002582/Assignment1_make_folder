@@ -5,7 +5,7 @@ src/mstr.c\
 src/test.c
  
 INC = -Iinc\
- 
+BUILD=build 
 
 PROJECT_NAME = all.out
  
