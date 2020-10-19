@@ -4,7 +4,7 @@
 #include "num_oprtn.h"
 int main ()
 {
-	printf("\n..................BITMASK......................\n");
+	printf("\n........................................\n");
 	    int op=set1(4,4);
 	    int r=reset(2);
 	    int p=flip(4);
@@ -15,7 +15,7 @@ int main ()
 	    int x,y;
 	    int count = 5;
 
-	printf("\n..................MYUTILS......................\n");
+	printf("\n........................................\n");
 	 int d=factorial(4);
 	 isprime(5);
 	 ispalindrome(100);
@@ -25,7 +25,7 @@ int main ()
 	  printf("\nsum is %d ",x);
 
 
-	printf("\n..................mystring......................\n");
+	printf("\n........................................\n");
 	char a[20]="Program";
     char b[20]="Hello world";
 
