@@ -1,5 +1,5 @@
-#ifndef BITMASK_H_INCLUDED
-#define BITMASK_H_INCLUDED
+#ifndef BIT_OPRTN_H_INCLUDED
+#define BIT_OPRTN_H_INCLUDED
 
 #include <stdbool.h>
 
