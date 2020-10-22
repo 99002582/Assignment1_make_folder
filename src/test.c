@@ -9,8 +9,7 @@ int main ()
 	    int b=reset(2);
 	    int c=flip(4);
 
-	    printf("%d %d %d",a,b,c);
-	    printf(" ");
+	    printf("%d %d %d \n",a,b,c);
 	    isKthBitSet(3,5);
 	    int x,y;
 	    int count = 5;
