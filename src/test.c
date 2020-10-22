@@ -5,11 +5,11 @@
 int main ()
 {
 	printf("\n........................................\n");
-	    int op=set1(4,4);
-	    int r=reset(2);
-	    int p=flip(4);
+	    int a=set1(4,4);
+	    int b=reset(2);
+	    int c=flip(4);
 
-	    printf("%d %d %d",op,r,p);
+	    printf("%d %d %d",a,b,c);
 	    printf(" ");
 	    isKthBitSet(3,5);
 	    int x,y;
@@ -32,18 +32,17 @@ int main ()
     int len = my_strlen(a);
     printf("Length is %d\n", len);
 
-    printf("\nCopying first string into second... \n");
-    my_strcpy(b, a); // copy the contents of ch_arr1 to ch_arr2
+    printf("\nCopying strings\n");
+    my_strcpy(b, a); 
     printf("First string (a) = %s\n", a);
     printf("Second string (b) = %s\n", b);
 
-    printf("\nConcatenating first and second string .. \n");
+    printf("\nConcatenating strings\n");
     my_strcat(a, b);
     printf("First string: %s\n", a);
     printf("Second string: %s\n\n", b);
 
-    //my_strcmp(a,b);
-     printf("Comparing first and second string .. ");
+    printf("Comparing strings");
     printf("\nstrcmp(\"a\", \"b\") = %d\n", my_strcmp("a", "b") );
 
 
