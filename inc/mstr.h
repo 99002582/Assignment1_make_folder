@@ -1,5 +1,5 @@
-#ifndef MYSTRING_H_INCLUDED
-#define MYSTRING_H_INCLUDED
+#ifndef MSTR_H_INCLUDED
+#define MSTR_H_INCLUDED
 
 
 unsigned int my_strlen(char *p);
@@ -9,4 +9,4 @@ int my_strcmp(char *strg1, char *strg2);
 
 
 
-#endif // MYSTRING_H_INCLUDED
+#endif // MSTR_H_INCLUDED
