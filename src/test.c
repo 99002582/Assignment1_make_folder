@@ -5,11 +5,11 @@
 int main ()
 {
 	printf("\n........................................\n");
-	    int a=set1(4,4);
-	    int b=reset(2);
-	    int c=flip(4);
+	    int st=set1(4,4);
+	    int rst=reset(2);
+	    int flp=flip(4);
 
-	    printf("%d %d %d \n",a,b,c);
+	    printf("%d %d %d \n",st,rst,flp);
 	    isKthBitSet(3,5);
 	    int x,y;
 	    int count = 5;
